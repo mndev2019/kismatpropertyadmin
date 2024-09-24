@@ -15,8 +15,8 @@ function App() {
       createRoutesFromElements(
         <>
            <Route path='/' element={<Layout/>}>
-            <Route index  element={<Home/>}/>
-            <Route path='/property-type' element={<Propertyinfo/>}/>
+            
+            <Route index element={<Propertyinfo/>}/>
             <Route path='select-property' element={<SelectProperty/>}/>
             <Route path='/property-details' element={<PropertyDetails/>}/>
             <Route path='/rental-propertydetails' element={<RentalPropertyDetails/>}/>
